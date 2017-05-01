@@ -32,11 +32,12 @@
       we are using our custom bar classes here
       see scss/themed.scss for implementation.
     -->
-    <ion-header-bar class="bar-deepblue-reverse bar-deepblue-borderbottom">
+    <ion-header-bar class="bar-deepblue-reverse bar-deepblue-borderbottom cabecera-menu">
+    <h4>Msoft - Ordenes de trabajo</h4>
     </ion-header-bar>
   
     <ion-content>
-      <ion-list>
+      <ion-list class="listado">
         <!-- #TIP: 
           Menu items are wrapped In the following <ion-list>. 
           Each one has attribute "menu-close" set in order to automatically close side menu on click 
@@ -47,11 +48,11 @@
         <ion-item menu-close class="menu-positive text-center" href="#/app/account">
           <b>{{ user.email }}</b>
         </ion-item>
-        <ion-item menu-close href="#/app/feed">
-          Feed
-        </ion-item>
         <ion-item menu-close href="#/app/shop">
-          Shop
+          Perfil
+        </ion-item>
+        <ion-item menu-close href="#/app/feed">
+          Ordenes de trabajo
         </ion-item>
 
       </ion-list>
@@ -62,8 +63,8 @@
       we choose to put a "logout" button in the footer of side menu.
       the "logout" method in contained in "AppCtrl" controller (see controllers.js)
     -->
-    <ion-footer-bar class="bar-positive">
-      <button class="button button-clear white-color" ng-click="logout()" menu-close>Logout</button>
+    <ion-footer-bar class="bar-positive color-cerrar">
+      <button class="button button-clear white-color " ng-click="logout()" menu-close>Cerrar sesión</button>
     </ion-footer-bar>
   
   </ion-side-menu>

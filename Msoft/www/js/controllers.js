@@ -207,3 +207,7 @@ angular.module('deepBlue.controllers', [])
   }
 
 })
+
+.controller('ordenCtrl', function($scope) {
+
+})

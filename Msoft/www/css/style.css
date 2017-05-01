@@ -1,1 +1,27 @@
 /* Empty. Add your own CSS if you like */
+/*GLOBAL*/
+.position-relative{position: relative;}
+.display-block{display: inline-block;float: none;vertical-align: middle;}
+
+body,h1,h2,h3,h4,h5,h6{font-family: 'Raleway', "sans-serif" !important;font-weight: 400;}
+.deepblue-theme .pane, .deepblue-theme .view{background: #ffffff;} 
+.titulo-inicio{color: #00a65a !important;width: 100%;height:auto;font-size: 40px;}
+.abs-start{width:100% !important;height:100%;position: absolute;top: 70%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
+.boton-inicio.button::after{position: relative;}
+.boton-inicio{line-height: 0 !important;padding:20px 10px !important;border-radius:5px;background-color: #00a65a !important;border: 1px solid #00a65a !important;width: 100%;color:#ffffff !important;min-width: auto !important;min-height: auto !important;}
+.boton-inicio:hover{background-color: #ffffff !important;border: 1px solid #00a65a !important;width: 100%;color:#00a65a !important;-webkit-transition:all .3s linear;transition:all .3s linear;}
+.footer-inicio{background-color: #ffffff !important;background-image: none !important;border-top: 1px solid #00a65a !important;}
+.footer-inicio h1{color: #00a65a !important;}
+
+/*MENU*/
+.deepblue-theme .menu{background: #333 !important; }
+.deepblue-theme .menu .item-complex .item-content{background: #333 !important;}
+.cabecera-menu {background: rgba(0, 166, 90, .8) !important;}
+.cabecera-menu h1{padding-left: 10px;}
+.listado .list:first-child{border: none !important;}
+.color-cerrar{background: rgba(0, 166, 90, .8) !important;padding: 0!important;}
+.color-cerrar .button.button-clear{width: 100%;text-align: left;height: 100%;padding: 5px;padding-left: 15px;}
+
+/*LOGIN*/
+.color-login{background: #00a65a !important;}
+.formulario-login{}

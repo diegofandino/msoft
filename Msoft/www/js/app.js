@@ -164,6 +164,18 @@ angular.module('deepBlue', ['ionic', 'deepBlue.controllers', 'deepBlue.services'
       }
     }
   })
+
+  .state('app.orden', {
+    url: '/orden-pedido',
+    data : { auth : true },
+    cache : false,
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/orden-pedido.html',
+        controller : 'ordenCtrl'
+      }
+    }
+  })
   
   // If none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/start');
